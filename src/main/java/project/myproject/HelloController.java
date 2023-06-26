@@ -8,7 +8,7 @@ public class HelloController {
 
     @GetMapping("/hello")
     public String hello(String name){
-
+        // branch test
         return "Hello " + name;
     }
 }
