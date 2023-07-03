@@ -1,0 +1,2 @@
+project.config.autoconfig.DispatcherServletConfig
+project.config.autoconfig.TomcatWebServerConfig
