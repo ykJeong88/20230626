@@ -6,7 +6,7 @@ import project.config.MyAutoConfiguration;
 
 @MyAutoConfiguration
 public class DispatcherServletConfig {
-    @Bean("tomcatWebServerFactory")
+    @Bean
     public DispatcherServlet dispatcherServlet() {
         return new DispatcherServlet();
     }
