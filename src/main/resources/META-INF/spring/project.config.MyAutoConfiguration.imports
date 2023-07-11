@@ -2,3 +2,5 @@ project.config.autoconfig.DispatcherServletConfig
 project.config.autoconfig.TomcatWebServerConfig
 project.config.autoconfig.JettyWebServerConfig
 project.config.autoconfig.PropertyPlaceholderConfig
+#project.config.autoconfig.ServerPropertiesConfig
+project.config.autoconfig.PropertyPostProCessorConfig
