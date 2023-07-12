@@ -4,3 +4,4 @@ project.config.autoconfig.JettyWebServerConfig
 project.config.autoconfig.PropertyPlaceholderConfig
 #project.config.autoconfig.ServerPropertiesConfig
 project.config.autoconfig.PropertyPostProCessorConfig
+project.config.autoconfig.DataSourceConfig
