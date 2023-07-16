@@ -1,3 +1,5 @@
-GET http://localhost:8080/app/hello?name=Spring
+#GET http://localhost:9090/app/hello?name=Spring
+GET http://localhost:9090/app/count?name=Spring
+
 
 #GET https://www.chicor.com
