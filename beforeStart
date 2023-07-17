@@ -1,0 +1,5 @@
+사용 기술 선택 -> spring intializr (build.gradle) -> Springboot Starter + dependency
+    -> @AutoConfiguration, AutoConfiguration.imports -> @Conditional
+        -> 디폴트 자동 구성 인프라 빈 -> 프로퍼티 소스 application.properties, enviroment, vmoption
+            -> @ComponentScan -> @Component 애플리케이션 로직 빈 -> @Configuration 커스톰 인프라 빈
+                -> @Configuration 추가 인프라 빈 -> 유저 구성 애플리케이션 빈
