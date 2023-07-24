@@ -3,14 +3,13 @@ package project.myproject;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.jdbc.core.JdbcTemplate;
-import project.myproject.HelloRepository;
-import project.myproject.HelloService;
-import project.myproject.MyProjectTest;
+import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.stream.IntStream;
 
-@MyProjectTest
+@SpringBootTest(webEnvironment =  SpringBootTest.WebEnvironment.NONE)
+@Transactional
 public class HelloServiceCountTest {
 
     @Autowired

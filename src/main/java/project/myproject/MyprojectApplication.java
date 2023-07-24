@@ -1,20 +1,13 @@
 package project.myproject;
 
 import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.jdbc.core.JdbcTemplate;
 
-import javax.annotation.PostConstruct;
+import jakarta.annotation.PostConstruct;
 
-@MySpringBootApplication
+@SpringBootApplication
 public class MyprojectApplication {
-
-//    @Bean
-//    ApplicationRunner applicationRunner(Environment env) {
-//        return args -> {
-//            String name = env.getProperty("my.name");
-//            System.out.println("my.name : " + name);
-//        };
-//    }
 
     private JdbcTemplate jdbcTemplate;
 
